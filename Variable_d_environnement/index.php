@@ -11,5 +11,5 @@
 
     $tg_variable = $_SERVER['TGVARIABLE'];
 
-    echo 'L ip est '.$tg_variable;
+    echo 'La variable d environnement tg_variable est "'.$tg_variable.'".';
 ?>
