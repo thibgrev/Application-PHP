@@ -6,5 +6,5 @@
 
     $tg_variable = $_ENV['TGVARIABLE'];
 
-    echo 'La variable d environnement tg_variable est "'.$tg_variable.'".';
+    echo 'La variable d environnement tg_variable est "'.$tg_variable.'"!';
 ?>
