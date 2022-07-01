@@ -2,7 +2,7 @@
     // Or simply use a Superglobal ($_SERVER or $_ENV)
     $ip = $_SERVER['REMOTE_ADDR'];
 
-    echo 'L ip est '.$ip;
+    echo 'L ip est '.$ip.'<br>';
 
     $tg_variable = $_ENV['TGVARIABLE'];
 
