@@ -16,7 +16,7 @@
   <?php
       echo '<hr>';
       echo 'Le contener qui prend en charge cette requete web est "<b>'.$hstnme.'</b>".';
-      echo '<hr>';
+      echo '<hr>'; 
   ?>
   <html>
     </body>
