@@ -8,6 +8,4 @@
 
     echo 'ENV variable named tg_variable is "'.$tg_variable.'"!';
     echo $tg_variable;
-
-    echo "tg";
 ?>
