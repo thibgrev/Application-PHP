@@ -1,3 +1,3 @@
 <?php
-  Site de ThibgReV v1
+  Site de ThibgReV v1;
 ?>
