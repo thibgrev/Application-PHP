@@ -5,9 +5,16 @@
     echo 'IP address is '.$ip.'<br>';
 
     $tg_variable = $_ENV['TGVARIABLE'];
+    $isTouch = isset($tg_variable);
 
-    echo 'ENV variable named tg_variable is "'.$tg_variable.'"!';
-    echo $tg_variable;
-
+    if ( $isTouch )
+    {
+        echo 'ENV variable named tg_variable is "'.$tg_variable.'"!';
+    }
+    else
+    {
+        echo 'No value for tg_variable variable';
+    }
+    
     echo "-------------------------------------------------------------------------";
 ?>
