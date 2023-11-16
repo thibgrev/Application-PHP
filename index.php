@@ -1,3 +1,3 @@
 <?php
-  Site de ThibgReV v1;
+  echo("Site de ThibgReV v1");
 ?>
