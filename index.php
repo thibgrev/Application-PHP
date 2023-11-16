@@ -1,3 +1,3 @@
 <?php
-  echo("Site de ThibgReV v1");
+  echo("Site de ThibGreV v1");
 ?>
