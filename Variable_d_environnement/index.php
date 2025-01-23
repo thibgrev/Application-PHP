@@ -5,7 +5,7 @@
     echo 'IP address is '.$ip.'<br>';
 
     $tg_variable = $null
-    $tg_variable = $_ENV['TGVARIABLE'];
+    $tg_variable = getenv('TGVARIABLE');
     $isTouch = isset($tg_variable);
 
     if ( $isTouch )
